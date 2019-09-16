@@ -1,0 +1,4 @@
+C:/Users/Alex/development/qt_widgets_playground/builder/debug/CMakeFiles/qt_widgets_playground.dir
+C:/Users/Alex/development/qt_widgets_playground/builder/debug/CMakeFiles/edit_cache.dir
+C:/Users/Alex/development/qt_widgets_playground/builder/debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Alex/development/qt_widgets_playground/builder/debug/CMakeFiles/qt_widgets_playground_autogen.dir
