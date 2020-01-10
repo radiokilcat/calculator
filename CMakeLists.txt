@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(qt_widgets_playground LANGUAGES CXX)
+project(calculator LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -13,11 +13,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
-add_executable(qt_widgets_playground
+add_executable(calculator
   main.cpp
   Calculator.cpp
   Calculator.h
   images.qrc
 )
 
-target_link_libraries(qt_widgets_playground PRIVATE Qt5::Widgets)
+target_link_libraries(calculator PRIVATE Qt5::Widgets)

@@ -1,6 +1,5 @@
 #include "Calculator.h"
 
-
 #include <QtWidgets>
 
 
@@ -14,8 +13,7 @@ Calculator::Calculator(QWidget* pwgt) : QWidget(pwgt)
     QChar aButtons[4][4] = {{'7', '8', '9', '/'},
                             {'4', '5', '6', '*'},
                             {'1', '2', '3', '-'},
-                            {'0', '.', '=', '+'}
-    };
+                            {'0', '.', '=', '+'}};
 
     //Layout setup
     QGridLayout* ptopLayout = new QGridLayout;
